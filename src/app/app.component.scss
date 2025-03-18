@@ -1,0 +1,23 @@
+.app {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__list {
+    width: 40%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    overflow: scroll;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    min-width: 3rem;
+    min-height: 10rem;
+    border: 1px solid blue;
+  }
+}
